@@ -13,7 +13,7 @@
   
 - To show table schema: ```\d+ <tablename>``` 
 
-- Add migrations in *"src/main/resources/db/migration"* with correct naming convention: ```V<version>__<Migration Name>```
+- Add migrations in *"src/main/resources/db/migration"* with correct naming convention: ```V<version>__<Migration Name>.sql```
   
 - To list all gradle tasks: ```./gradlew tasks```  
   

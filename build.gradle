@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id "org.flywaydb.flyway" version "8.5.2"
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+flyway {
+    url = 'jdbc:postgresql://localhost:5432/cart'
+    user = 'postgres'
+    password = 'postgres'
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'org.postgresql:postgresql:42.3.3'
+    implementation 'org.flywaydb:flyway-core:8.5.2'
+}

@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: src/main/resources/db/migration/V1.2__FixedCreateUserTable.sql
+  checksum: 33e5ea6e7a738cd444bbf397dd3904bc698b974375df3b37d516248d6d83336c
+version: ""

@@ -2,6 +2,7 @@
 .gradle
 .idea
 bin
+.talismanrc
 build
 gradle
 gradlew

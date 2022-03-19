@@ -9,10 +9,13 @@ version: ""
 fileignoreconfig:
 - filename: src/main/resources/db/migration/V1.4__AlterNameOfUsersTableToFullName.sql
   checksum: e446c5c87ab893ed27f905e63e715e50c25b73fd1ef815a9d7464f0cdbdb66f3
-version: ""
-fileignoreconfig:
 - filename: src/main/resources/db/migration/V1.5__AddPhoneNumberToUsersTable.sql
   checksum: 6680fddf39bc4c2aab3fc4f1627aa698cbfc64c68ee96b2557ad76e6fb2ab2fe
 version: ""
+fileignoreconfig:
+- filename: src/main/resources/db/migration/V1.6__CreateCartsTable.sql
+  checksum: 454561201bffbc58b129d3ca025fb7127aa0f469cc9171a06d51990c3371441c
+version: ""
+
 
 
